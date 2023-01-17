@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Deseja apagar o usuário";
+}
+
+<div class="text-center">
+    <h3> Você desejar apagar o contato (Nome) </h3>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 5px">
+
+    <a class="btn btn-primary d-block" role="button" asp-controller="Contato" asp-action="Index">Cancelar</a>
+    <a class="btn btn-danger d-block" role="button" asp-controller="Contato" asp-action="Apagar">Confirmo que desejo apagar</a>
+
+</div>
